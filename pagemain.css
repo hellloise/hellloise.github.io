@@ -1,0 +1,119 @@
+:root {
+    --blue: #4A919Eaa;
+    --white: #FFFFFF;
+    --black: #000000;
+    --pink: #EBACA2;
+    --darkblue: #1C2942;
+    --darkblue2: #212E53;
+  }
+  html{
+    background: #B8CBD0;
+    padding: 0 15%;
+    display: block;
+  }
+  body {
+    background: var(--bg);
+    color: var(--fontColor);
+    font-family: Comic Sans MS;
+  }
+li {
+    font-family: Comic Sans MS;
+    padding: 6px 10px 10px 300px;
+    font-size: 20px;
+    list-style-type: none;
+  }
+  .lists{
+    font-family: Comic Sans MS;
+    padding: 10px 30px 10px 30px;
+    margin: 30px 160px 30px;
+    border: solid;
+    font-size: 110%;
+    border-radius: 50px;
+  }
+  
+  .list {
+    font-family: Comic Sans MS;
+    text-align: center;
+    /*padding: 10px 10px 20px 0px;*/
+    padding-left: 10px;
+    margin: 100px 250px 30px;
+    border: solid;
+    font-size: 120%;
+    border-radius: 100px 100px / 120px;
+  }
+  .light-theme {
+    --bg: var(--blue);
+    --fontColor: var(--darkblue);
+  }
+  .dark-theme {
+    --bg: var(--darkblue2);
+    --fontColor: var(--black);
+  }
+  .btn {
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+  }
+  .btn {
+    position: absolute;
+    top: 10px;
+    left: 1230px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+  }
+  .light-theme {
+    --bg: var(--blue);
+    --fontColor: var(--darkblue);
+    --btnBg: var(--black);
+    --btnFontColor: var(--white);
+  }
+  
+  .dark-theme {
+    --bg: var(--darkblue2);
+    --fontColor: var(--black);
+    --btnBg: var(--white);
+    --btnFontColor: var(--black);
+  }
+h1 {
+  font-size: 110%;
+  text-decoration: underline;
+  font-family: Comic Sans MS;
+  padding: 30px 20px 10px 150px;
+}
+ul {
+  font-family: Comic Sans MS;
+  font-size: 15px;
+}
+/* la c'est le sommaire*/
+/*p#msg {
+  font-family: Comic Sans MS;
+  font-size: 120%;
+  padding: 10px 20px 20px 220px;
+}*/
+h2 {
+  padding: 10px 20px 20px 300px;
+}
+.bouton {
+  left: 500px;
+  top: 20%;
+  padding: 10px 10px 10px 300px;
+  font-family:Comic Sans MS;
+}
+img {
+  /*width: 300px;*/
+  width: 35em;
+  padding: 10px 20px 20px 100px;
+}
+.image img{
+  width: 20em;
+  padding: 40px 20px 0px 250px;
+}
+.deux{
+  font-family: Comic Sans MS;
+  padding: 50px 20px 20px 50px;
+  font-size: 110%;
+  text-decoration: underline;
+}

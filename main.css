@@ -1,0 +1,125 @@
+:root {
+    --blue: #4A919Eaa;
+    --white: #FFFFFF;
+    --black: #000000;
+    --pink: #EBACA2;
+    --darkblue: #1C2942;
+    --darkblue2: #212E53;
+  }
+  /*bordure*/
+  html{
+    background: #B8CBD0;
+    padding: 0 15%;
+    display: block;
+  }
+
+  body {
+    background: var(--bg);
+    color: var(--fontColor);
+    font-family: Comic Sans MS;
+  }
+  /*en dessous du sommaire*/
+li {
+    list-style: circle;
+    font-family: Comic Sans MS;
+    padding: 6px 10px 10px 260px;
+    font-size: 20px;
+  }
+  
+  .list {
+    list-style: circle;
+    text-align: left;
+  }
+  .light-theme {
+    --bg: var(--blue);
+    --fontColor: var(--darkblue);
+  }
+  .dark-theme {
+    --bg: var(--darkblue2);
+    --fontColor: var(--black);
+  }
+  .btn {
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+  }
+  .btn {
+    position: absolute;
+    top: 10px;
+    left: 1230px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+  }
+  .light-theme {
+    --bg: var(--blue);
+    --fontColor: var(--darkblue);
+    --btnBg: var(--black);
+    --btnFontColor: var(--white);
+  }
+  
+  .dark-theme {
+    --bg: var(--darkblue2);
+    --fontColor: var(--black);
+    --btnBg: var(--white);
+    --btnFontColor: var(--black);
+  }
+  /*premiere ligne du site*/
+h1 {
+  text-align: center;
+  text-decoration: underline;
+  font-family: Comic Sans MS;
+  filter: drop-shadow(10px 10px 10px #A4BBFF);
+  padding: 20px;
+}
+/*sommaire + texte*/
+ul {
+  font-family: Comic Sans MS;
+  font-size: 15px;
+}
+/* la c'est le sommaire*/
+p#msg {
+  font-family: Comic Sans MS;
+  font-style: oblique;
+  text-decoration: underline;
+  font-size: 150%;
+  padding: 40px 20px 0px 240px;
+}
+
+/* premier texte*/
+.bla { 
+  top: 20%;
+  font-family:Comic Sans MS;
+  padding: 30px 10px 30px 50px;
+  font-size: 120%;
+  margin: 40px 50px 20px 180px;
+  width: 30em;
+  border: solid;
+  border-radius: 10px 100px / 120px;
+}
+/*logo du jeu*/
+h3 {
+  text-align: center;
+  filter: drop-shadow(10px 10px 10px #A4BBFF);
+}
+/*autre page*/
+/*a{
+  padding: 100px 10px 60px 200px;
+  font-size: 110%;
+}*/
+/*test*/
+p {
+  font-size: 120%;
+  font-family:Comic Sans MS;
+  /*font-style:normal;*/
+}
+div {
+  font-family:Comic Sans MS;
+  padding: 10px 10px 10px 50px;
+  font-size: 100%;
+  margin: 60px 180px 70px 180px;
+  border: solid;
+  border-radius: 10px 100px / 120px;
+}
