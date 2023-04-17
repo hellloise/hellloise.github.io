@@ -20,8 +20,8 @@
     color: var(--fontColor);
     font-family: Comic Sans MS;
   }
-  /*en dessous du sommaire*/
-/*li {
+/*en dessous du sommaire
+li {
     list-style: circle;
     font-family: Comic Sans MS;
     padding: 6px 10px 10px 260px;
@@ -76,8 +76,8 @@ h1 {
   /*filter: drop-shadow(10px 10px 10px #A4BBFF);*/
   padding-top: 80px;
 }
-/*sommaire + texte*/
-/*ul {
+/*sommaire + texte
+ul {
   font-family: Comic Sans MS;
   font-size: 15px;
 }*/
@@ -94,52 +94,69 @@ p#msg {
 .bla { 
   top: 20%;
   font-family:Comic Sans MS;
-  padding: 30px 30px 30px 50px;           /*haut droit bas gauche*/
+  padding: 30px 30px 30px 30px;              /*haut droit bas gauche*/
   font-size: 110%;
-  margin: 20px 50px 20px 180px;           /*haut droit bas gauche*/
-  width: 35em;
-  background: #FF7F50;
+  margin: 40px 180px 20px 50px;             /*haut droit bas gauche*/
+  background: #7B68EE;
   border-radius: .5em;
+  width: 30em;
   box-shadow: 0 0.3em 1em #000;
   /*border: solid;
   border-radius: 10px 100px / 120px;*/
 }
-.log{
-  padding-left: 220px;
-  padding-top: 50px;
-  font-size: 110%;
-  color: #000;
 
+.pdf1{
+  font-family: Comic Sans MS;
+  color: #1C2942;
+  font-size: 80%;
 }
-/*autre page*/
-/*a{
-  padding: 100px 10px 60px 200px;
-  font-size: 110%;
-}*/
+
 /*test*/
 p {
   font-size: 110%;
   font-family:Comic Sans MS;
   /*font-style:normal;*/
 }
-.relou {
+.second{
   font-family:Comic Sans MS;
-  padding: 10px 30px 20px 40px;        /*haut droit bas gauche*/
-  font-size: 100%;
-  margin: 20px 180px 70px 180px;       /*haut droit bas gauche*/
-  width: 30em;
-  background: #DEB887;
+  padding: 10px 30px 20px 30px;               /*haut droit bas gauche*/
+  font-size: 110%;
+  margin: 60px 180px 70px 50px;              /*haut droit bas gauche*/
+  background: #8FBC8F;
   border-radius: .5em;
+  width: 30em;
+  box-shadow: 0 0.3em 1em #000;
+}
+
+.projet {
+  font-family:Comic Sans MS;
+  padding: 10px 10px 10px 10px;                 /*haut droit bas gauche*/
+  font-size: 100%;
+  margin: 60px 10px 70px 780px;                /*haut droit bas gauche*/
+  background: #FFDAB9;
+  border-radius: .5em;
+  width: 25em;
   box-shadow: 0 0.3em 1em #000;
   /*border: solid;
   border-radius: 10px 100px / 120px;*/
 }
-.sub{
-  color: #000;
-  padding-left: 220px;
-  padding-top: 50px;
+
+.last{
+  font-family:Comic Sans MS;
+  padding: 10px 30px 20px 40px;               /*haut droit bas gauche*/
   font-size: 110%;
+  margin: 60px 180px 70px 180px;              /*haut droit bas gauche*/
+  width: 30em;
+  border: solid;
+  border-radius: 10px 100px / 120px;
 }
+
+.telechargement{
+  font-family: Comic Sans MS;
+  color: #1C2942;
+  font-size: 80%;
+}
+
 #header-nav{
   display: flex;
   flex-direction: row-reverse;

@@ -5,12 +5,14 @@
     --pink: #EBACA2;
     --darkblue: #1C2942;
     --darkblue2: #212E53;
+    --clairblue : #B8CBD0;
   }
   /*bordure*/
   html{
-    background: #B8CBD0;
+    /*background: #B8CBD0;
     padding: 0 15%;
-    display: block;
+    display: block;*/
+    font-family: Comic Sans MS;
   }
 
   body {
@@ -18,20 +20,20 @@
     color: var(--fontColor);
     font-family: Comic Sans MS;
   }
-  /*en dessous du sommaire*/
+/*en dessous du sommaire
 li {
     list-style: circle;
     font-family: Comic Sans MS;
     padding: 6px 10px 10px 260px;
     font-size: 20px;
-  }
+  }*/
   
   .list {
     list-style: circle;
     text-align: left;
   }
   .light-theme {
-    --bg: var(--blue);
+    --bg: var(--clairblue);
     --fontColor: var(--darkblue);
   }
   .dark-theme {
@@ -44,17 +46,17 @@ li {
   }
   .btn {
     position: absolute;
-    top: 10px;
+    top: 9px;
     left: 1230px;
-    height: 50px;
-    width: 50px;
+    height: 45px;
+    width: 45px;
     border-radius: 50%;
     border: none;
     color: var(--btnFontColor);
     background-color: var(--btnBg);
   }
   .light-theme {
-    --bg: var(--blue);
+    --bg: var(--clairblue);
     --fontColor: var(--darkblue);
     --btnBg: var(--black);
     --btnFontColor: var(--white);
@@ -71,33 +73,46 @@ h1 {
   text-align: center;
   text-decoration: none;
   font-family: Comic Sans MS;
-  filter: drop-shadow(10px 10px 10px #A4BBFF);
-  padding: 20px;
+  /*filter: drop-shadow(10px 10px 10px #A4BBFF);*/
+  padding-top: 80px;
 }
-/*sommaire + texte*/
+/*sommaire + texte
 ul {
   font-family: Comic Sans MS;
   font-size: 15px;
+}*/
+.image{
+  padding-top: 50px;
+  padding-left: 160px;
 }
-/* la c'est le sommaire*/
-p#msg {
-  font-family: Comic Sans MS;
-  font-style: oblique;
-  text-decoration: underline;
-  font-size: 150%;
-  padding: 40px 20px 0px 240px;
+.oby{
+  padding: 20px 10px 20px 20px;
+  margin: 20px 10px 50px 160px;       /*haut droit bas gauche*/
+  width: 35em;
+  background: #EBACA2;
+  border-radius: .5em;
+  box-shadow: 0 0.3em 1em #000;
+}
+.chrono{
+  font-size: 120%;
+  padding-top: 50px;
+  padding-left: 550px;
+  color: #000;
 }
 
 /* premier texte*/
 .bla { 
   top: 20%;
   font-family:Comic Sans MS;
-  padding: 30px 30px 30px 50px;
-  font-size: 110%;
-  margin: 40px 50px 20px 180px;
+  padding: 20px 30px 30px 30px;            /*haut droit bas gauche*/
+  font-size: 100%;
+  margin: 20px 50px 100px 100px;            /*haut droit bas gauche*/
   width: 30em;
-  border: solid;
-  border-radius: 10px 100px / 120px;
+  /*border: solid;*/
+  background: #87CEFA;
+  border-radius: .5em;
+  box-shadow: 0 0.3em 1em #000;
+  /*border-radius: 10px 100px / 120px;*/
 }
 /*logo du jeu*/
 h3 {
@@ -111,24 +126,110 @@ h3 {
 }*/
 /*test*/
 p {
-  font-size: 110%;
+  font-size: 100%;
   font-family:Comic Sans MS;
   /*font-style:normal;*/
 }
-div {
+.meme {
   font-family:Comic Sans MS;
-  padding: 10px 30px 20px 40px;
+  padding: 10px 30px 20px 40px;        /*haut droit bas gauche*/
   font-size: 100%;
-  margin: 60px 180px 70px 180px;
-  border: solid;
-  border-radius: 10px 100px / 120px;
+  margin: 20px 180px 70px 100px;       /*haut droit bas gauche*/
+  background: #D8BFD8;
+  border-radius: .5em;
+  box-shadow: 0 0.3em 1em #000;
+  /*border: solid;
+  border-radius: 10px 100px / 120px;*/
 }
 .last{
   font-family:Comic Sans MS;
-  padding: 10px 30px 20px 40px;
-  font-size: 110%;
-  margin: 60px 180px 70px 180px;
+  padding: 10px 30px 20px 40px;       /*haut droit bas gauche*/
+  font-size: 100%;
+  margin: 20px 180px 70px 100px;      /*haut droit bas gauche*/
   width: 30em;
-  border: solid;
-  border-radius: 10px 100px / 120px;
+  background: #20B2AA;
+  border-radius: .5em;
+  box-shadow: 0 0.3em 1em #000;
+  /*border: solid;
+  border-radius: 10px 100px / 120px;*/
+}
+
+.deux{
+  padding: 20px 20px 20px 20px;
+  margin: 20px 50px 300px 0px;            /*haut droit bas gauche*/
+  width: 30em;
+  background: #8FBC8F;
+  border-radius: .5em;
+  box-shadow: 0 0.3em 1em #000;
+}
+.pb{
+  color: #000;
+  padding-top: 100px;
+  padding-left: 200px;
+  font-size: 110%;
+}
+.sl{
+  color: #000;
+  padding-left: 200px;
+  font-size: 110%;
+}
+#header-nav{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+  background-color: darkcyan;
+  z-index: 1000;
+  position: absolute;
+  width: 100%;
+  height: 10%;
+  top: 0;
+  right: 0;
+  left: 0;
+  box-shadow: 0 3px 5px -1px #0003, 0 6px 10px #00000024, 0 1px 18px #0000001f;
+}
+
+.logo-img{    
+  width: 80px;
+  cursor: pointer;
+}
+
+.nav-link{
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.link{
+  padding: 20px 25px;
+  font-size: 18px;
+  font-family: Comic Sans MS;
+}
+
+.link, a:hover{
+  color: lightgrey;
+}
+
+.link,a{
+  text-decoration: none;
+  list-style: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+  color: white;
+}
+
+#logo{
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#navbar{
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
